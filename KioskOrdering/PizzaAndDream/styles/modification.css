@@ -1,0 +1,206 @@
+body{
+    background-color: #252D32;
+    color: white;
+}
+
+/* Code ng food */
+.img-exit{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.img-food{
+    margin-left: auto;
+    width: 350px;
+    height: fit-content;
+    margin-right: 40px;
+}
+
+.pizza-type{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.modify{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #DFDFE0;
+}
+
+.options{
+    color: #252D32;
+    font-size: 26px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.pizza-size{
+    color: #252D32;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select-pizza{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.select-pizza label{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+select{
+    background-color: #D5995B;
+    width: 100%;
+    padding: 10px;
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: white;
+    text-indent: 20px;
+    display: block;
+}
+
+.total{
+    margin-top: 35px;
+    margin-left: 85px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #252D32;
+}
+
+.price{
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #252D32;
+    margin-top: -10px;
+}
+
+.quantity{
+    display:flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quantity button{
+    margin-top: 70px;
+    width: 70px;
+    height: 35px;
+    background-color: #D5995B;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.quantity input{
+    margin-top: 70px;
+   width: 100px; 
+   height: 35px;
+   font-weight: 600;
+   text-align: center;
+   border: none;
+   border-width: 2px;
+   font-size: 30px;
+   
+}
+
+.cart{
+    background-color: #D5995B;
+    margin-top: 70px;
+    width: 600px;
+    height: 90px;
+    border-radius: 20px;
+    font-size: 36px;
+    color: white;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+/* Code ng PROMO }*/
+
+.img-promo{
+    height: fit-content;
+    width: 250px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.promo-modify{
+    position: fixed;
+    background-color: white; 
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    background-color: #DFDFE0;
+    padding: 15px;
+    height: 100%;
+}
+
+.promo-type{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.options-pro h4{
+    color: #252D32;
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.promo-bundle{
+    color: #252D32;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 43%;
+    overflow: auto;
+    width: 90%;
+}
+
+.promo-total{
+    text-align: end;
+    font-size: 18px;
+    font-weight: 800;
+    color: #252D32;
+    padding-right: 100px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.promo-cart{
+    background-color: #D5995B;
+    margin-top: 15px;
+    width: 600px;
+    height: 90px;
+    border-radius: 20px;
+    font-size: 36px;
+    color: white;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

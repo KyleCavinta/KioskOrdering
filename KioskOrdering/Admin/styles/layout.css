@@ -1,0 +1,39 @@
+.table-part{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.info-part{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+}
+
+.table-part .cus-table{
+    height: 150px;
+    max-width: 320px;
+    background-color: gray;
+    margin: 15px auto;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    .table-part{
+        width: 65%;
+        float: left;
+    }
+
+    .info-part{
+        width: 35%;
+        float: left;
+    }
+}

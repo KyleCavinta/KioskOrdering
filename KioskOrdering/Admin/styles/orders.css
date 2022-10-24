@@ -1,0 +1,79 @@
+.container-fluid{
+    margin-top: 60px;
+    z-index: 0;
+}
+
+h4.title{
+    color: #fff8f8;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+}
+
+.app-card{
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    height: 80vh;
+    overflow: auto;
+}
+
+.app-card select, .app-card input{
+    width: fit-content;
+}
+
+.app-card .date-pick{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.app-card .tbl-container{
+    border-radius: 5px;
+    height: 90%;
+    position: relative;
+    overflow:auto;
+}
+
+.app-card table{
+    width: 100%;
+}
+
+.app-card table thead{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    color: #ffffff;
+    background-color: #314149;
+}
+
+.app-card table th, .app-card table td{
+    padding: 10px;
+}
+
+.app-card table thead th:nth-child(5), .app-card table tbody tr td:nth-child(5){
+    text-align: end;
+}
+
+.app-card table tr:nth-child(even){
+    background-color:rgb(248, 248, 248);
+}
+
+.app-card table tbody tr:hover{
+    background-color: #cb8446d3;
+    color: #ffffff;
+    transition: .2s ease all;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    
+    .app-card{
+        padding: 20px;
+    }
+    
+    .app-card table th, .app-card table td{
+        padding: 15px;
+    }
+    
+}
